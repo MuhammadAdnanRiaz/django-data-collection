@@ -9,5 +9,5 @@ class get_answers(viewsets.ModelViewSet):
     serializer_class = AnswersSerializer
     queryset = Answers.objects.all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['created_at','updated_at']
+    filterset_fields = ['created_at','updated_at','question']
 

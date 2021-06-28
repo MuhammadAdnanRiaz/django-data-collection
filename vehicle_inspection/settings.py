@@ -86,7 +86,7 @@ DATABASES = {
         'NAME': 'vehicle_inspection',
         'USER': 'postgres',
         'PASSWORD': 'adnan1234',
-        'HOST': 'localhost',
+        'HOST': '172.17.0.2',
         'PORT': '5432',
     }
 }
